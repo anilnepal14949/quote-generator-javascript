@@ -46,7 +46,7 @@ async function getQuote() {
         // Stop Loader, Show Quote
         hideLoadingSpinner();  
     } catch (error) {
-        getQuote();
+        // getQuote();
         console.log("Whoops, no quote", error);
     }
 }
